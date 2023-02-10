@@ -5,7 +5,7 @@
       <div class="header @@classList">
         <!-- navbar -->
         <nav class="navbar-classic navbar navbar-expand-lg">
-          <a id="nav-toggle" href="#">
+          <a id="nav-toggle" href="">
             <vue-feather type="menu" class="nav-icon me-2 icon-xs"></vue-feather>
           </a>
           <div class="ms-lg-3 d-lg-block">

@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Login from '../pages/login/Login'
 import PageNotFound from '../pages/PageNotFound'
 import AdminPage from '../pages/admin/Admin'
 import DashboardPage from '../pages/admin/Dashboard'
@@ -9,7 +10,8 @@ import SiswaPage from '../pages/admin/master/Siswa'
 import IconsPage from '../pages/Icons/IconsPage'
 
 const routes = [
-    {
+  { path: '/', component: Login },
+  {
         path: '/admin',
         name: 'Admin',
         component: AdminPage,

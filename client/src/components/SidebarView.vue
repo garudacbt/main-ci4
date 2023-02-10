@@ -2,9 +2,9 @@
   <nav class="navbar-vertical light navbar">
     <div class="nav-scroller">
       <!-- Brand logo -->
-      <a class="navbar-brand" href="../index.html">
+      <div class="navbar-brand">
         <img src="../assets/images/garuda_circle.png" alt="" /> GarudaCBT
-      </a>
+      </div>
       <hr>
       <!-- Navbar nav -->
       <ul class="navbar-nav light flex-column" id="sideNavbar">
